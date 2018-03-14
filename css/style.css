@@ -1,0 +1,161 @@
+*{
+margin:0px;
+padding:0px;
+}
+body{
+background:url("../img/back7.jpg");
+/*background:skyblue;*/
+}
+.well{
+  margin-top: 130px;
+  margin: 30px 60px 10px 60px;
+  border: none;
+  padding: 0px;
+}
+.intro{
+  margin-top: 30px;
+  background: url("../img/tech_back.jpg");
+  padding-top: 130px;
+  padding-bottom: 20px;
+}
+.heading{
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  padding: 10px;
+  background: #BA2B25;
+}
+
+#name{
+  font-size: 30px;
+  color: white;
+  padding:20px;
+  margin:20px;
+  font-weight:900;
+}
+#org_by{
+  font-size: 20px;
+  color: skyblue;
+  display: inline;
+  font-weight:900;
+  padding: 10px;
+}
+#org_name{
+  font-size: 22px;
+  color: white;
+  display: inline;
+  font-weight:900;
+  padding: 10px;
+}
+
+.intro table{
+  margin: 15px;
+}
+.intro table tr th:first-child,td:first-child{
+  border-right: 2px solid #fff2;
+}
+.intro table tr th{
+  /* border-bottom: 2px solid skyblue; */
+}
+#visitor_count, #register_count{
+  font-weight: 800;
+}
+.intro th,td{
+  padding:10px;
+  margin: 10px;
+  color:white;
+  font-size: 15px;
+  text-align: center;
+}
+.about{
+}
+.about .about_content{
+  border:none;
+  font-size: 20px;
+    padding:30px;
+    font-family: Futura;
+}
+
+.rules{
+  margin-top: 130px;
+}
+.rules_content{
+  border:none;
+  font-size: 20px;
+    padding:50px;
+    font-family: Futura;
+}
+
+.register{
+margin-top: 130px;
+}
+.register_content{
+  border:none;
+  font-size: 20px;
+  padding:50px;
+  font-family: Futura;
+}
+.contact{
+margin-top: 130px;
+padding-bottom: 70px;
+}
+.contact table {
+  border:none;
+  font-size: 20px;
+  padding:50px;
+  font-family: Futura;
+}
+.contact th,td{
+  padding: 20px;
+  color: black;
+}
+
+@media screen and (max-width:600px){
+  .well{
+    margin: 20px 10px 10px 10px;
+    background: #5000;
+  }
+  .about{
+
+  }
+  .register{
+
+  }
+  .contact{
+
+  }
+}
+
+@media screen and (max-width:450px){
+  .well{
+    margin: 20px 10px 10px 10px;
+    background: #5000;
+  }
+  .about{
+
+  }
+  .register{
+
+  }
+  .contact{
+
+  }
+}
+
+@media screen and (max-width:350px){
+  .well{
+    margin: 20px 10px 10px 10px;
+    background: #5000;
+  }
+  .about{
+
+  }
+  .register{
+
+  }
+  .contact{
+
+  }
+}
