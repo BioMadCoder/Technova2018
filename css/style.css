@@ -3,8 +3,8 @@ margin:0px;
 padding:0px;
 }
 body{
-background:url("../img/back7.jpg");
-/*background:skyblue;*/
+/* background:url("../img/back7.jpg"); */
+background: url('../img/tech_back.jpg');
 }
 .well{
   margin-top: 130px;
@@ -26,25 +26,41 @@ background:url("../img/back7.jpg");
   font-weight: 900;
   color: white;
   padding: 10px;
-  background: #BA2B25;
+  /* background: #BA2B25; */
+  background: #3949AB;
+}
+
+.profile-pic{
+  /* margin-top:-100px; */
+  height:100px;
+  width:100px;
+  margin: 15px;
+}
+.img-rounded{
+  /* border:4px solid #2B2E3C; */
+   border:4px solid #fff8;
+  box-shadow: 3px 3px 4px 4px #2B2E3C88;
+}
+.img-rounded:hover{
+  box-shadow: 0px 0px 16px 16px #fff8;
 }
 
 #name{
   font-size: 30px;
   color: white;
-  padding:20px;
-  margin:20px;
+  /* padding:20px; */
+  /* margin:20px; */
   font-weight:900;
 }
 #org_by{
-  font-size: 20px;
+  font-size: 15px;
   color: skyblue;
   display: inline;
   font-weight:900;
   padding: 10px;
 }
 #org_name{
-  font-size: 22px;
+  font-size: 17px;
   color: white;
   display: inline;
   font-weight:900;
@@ -68,6 +84,7 @@ background:url("../img/back7.jpg");
   color:#FF9800;
   font-weight: 900;
   border: 1px white solid;
+  box-shadow: 0px 0px 9px 9px #fff8;
 }
 
 .intro table{
@@ -117,6 +134,9 @@ margin-top: 130px;
   padding:50px;
   font-family: Futura;
 }
+.register a{
+  font-size: 30px;
+}
 .contact{
 margin-top: 130px;
 padding-bottom: 70px;
@@ -135,6 +155,9 @@ background: url("../img/sweet_dark.jpg");
 }
 
 @media screen and (max-width:600px){
+  body{
+    background: url('../img/tech_back.jpg');
+  }
   .well{
     margin: 20px 10px 10px 10px;
     background: #fff;
@@ -153,7 +176,8 @@ background: url("../img/sweet_dark.jpg");
     font-weight: 900;
     color: white;
     padding: 10px;
-    background: #BA2B25;
+    /* background: #BA2B25; */
+    background: #3949AB;
   }
 
   #name{
@@ -225,6 +249,9 @@ background: url("../img/sweet_dark.jpg");
     padding:50px;
     font-family: Futura;
   }
+  .register a{
+    font-size: 30px;
+  }
   .contact{
   margin-top: 70px;
   padding-bottom: 70px;
@@ -244,6 +271,9 @@ background: url("../img/sweet_dark.jpg");
 }
 
 @media screen and (max-width:450px){
+  body{
+    background: url('../img/tech_back.jpg');
+  }
   .well{
     margin: 20px 10px 10px 10px;
     background: #fff;
@@ -259,10 +289,11 @@ background: url("../img/sweet_dark.jpg");
     width: 100%;
     text-align: center;
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 900;000
     color: white;
     padding: 10px;
-    background: #BA2B25;
+    /* background: #BA2B25; */
+    background: #3949AB;
   }
 
   #name{
@@ -334,6 +365,9 @@ background: url("../img/sweet_dark.jpg");
     padding:15px;
     font-family: Futura;
   }
+  .register a{
+    font-size: 30px;
+  }
   .contact{
   margin-top: 50px;
   padding-bottom: 50px;
@@ -352,6 +386,9 @@ background: url("../img/sweet_dark.jpg");
 }
 
 @media screen and (max-width:350px){
+  body{
+    background: url('../img/tech_back.jpg');
+  }
   .well{
     margin: 20px 10px 10px 10px;
     background: #fff;
@@ -370,7 +407,8 @@ background: url("../img/sweet_dark.jpg");
     font-weight: 900;
     color: white;
     padding: 10px;
-    background: #BA2B25;
+    /* background: #BA2B25; */
+    background: #3949AB;
   }
 
   #name{
@@ -442,6 +480,9 @@ background: url("../img/sweet_dark.jpg");
     padding:50px;
     font-family: Futura;
   }
+  .register a{
+    font-size: 30px;
+  }
   .contact{
   margin-top: 70px;
   padding-bottom: 70px;
@@ -479,7 +520,8 @@ background: url("../img/sweet_dark.jpg");
     font-weight: 900;
     color: white;
     padding: 10px;
-    background: #BA2B25;
+    /* background: #BA2B25; */
+    background: #3949AB;
   }
 
   #name{
