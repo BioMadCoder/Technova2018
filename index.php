@@ -67,7 +67,6 @@ fclose ($handle) ;
   the circuit on BreadBoard using given electronic components.</p><br>
   <p>This main aim of this contest it to make the participants familiear to basic electronic components and to encourage them to enhance their creativity.
   </p>
-
 </div>
 
 </div>

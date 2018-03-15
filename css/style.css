@@ -79,6 +79,9 @@ background:url("../img/back7.jpg") fixed;
   font-size: 15px;
   margin:16px 10px;
 }
+.lets_register li{
+  list-style-type: none;
+}
 .lets_register li a:hover{
   background: white;
   color:#FF9800;
