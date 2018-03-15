@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -11,6 +9,7 @@
 <script type="text/javascript" src="bootstrap/js/jquery.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
 <link rel="stylesheet" href="css/style.css">
 <script type="text/javascript" src="js/script.js"></script>
@@ -22,10 +21,9 @@
   <div class="well">
 <div class="intro">
 <center>
-<div id="name">Welcome to Circuit War 2018
-</div>
+<div id="name">Welcome to Circuit War 2018</div>
 
-<center><div class="profile-pic">
+<center><div class="profile-pic animated bounceIn">
      <a href="javascript:void(0);">
        <img class="img-rounded img-responsive img-circle profile-img" src="img/icon.png" alt="profile pic">
      </a>
@@ -33,14 +31,30 @@
 
 <div id="org_by">Organised by:</div><div id="org_name">Bio-Medical Department Dcrust,Murthal</div><br>
 
-<div class="lets_register"><ul><li><a href="register.html" target="_blank">Register</a></li></ul></div>
+<div class="lets_register animated infinite pulse"><ul><li><a href="register.html" target="_blank">Register</a></li></ul></div>
 <table>
 <tr><th>Visitors</th><th>Registrations</th>
 </tr>
-<tr><td><div id="visitor_count">145</div></td><td><div id="register_count">0</div></td>
+<tr><td><div id="visitor_coun" class="animated bounceIn">
+<?php
+$handle = fopen("counter_a.cnf", "r");
+if(!$handle){
+ echo "143" ;
+}
+else {
+	$counter = ( int ) fread ($handle,20) ;
+	fclose ($handle) ;
+	$counter++ ;
+	echo $counter;
+$handle =  fopen("counter_a.cnf", "w" ) ;
+fwrite($handle,$counter) ;
+fclose ($handle) ;
+	}
+?>
+</div></td><td><div id="register_count" class="animated bounceIn">0
+</div></td>
 </tr>
 </table>
-
 </center>
 </div>
 <div class="about">
@@ -86,7 +100,7 @@
 <table>
   <tr><td>Rohit (Bme-Final Year)</td> <td>Coordinator</td> <td>8607015140</td>
   </tr>
-  <tr><td>Vishal (Bme-3rd Year)</td> <td>Co-Coordinator</td> <td>9876543210</td>
+  <tr><td>Vishal (Bme-3rd Year)</td> <td>Co-Coordinator</td> <td>9050247393</td>
   </tr>
 </table>
 
