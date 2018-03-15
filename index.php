@@ -62,7 +62,7 @@ fclose ($handle) ;
 
 <div class="about_content">
   <p><b>Circuit war</b> is a Technical Event organised by <b>Bio-Medical Engineering Department</b> of <a href="http://dcrustm.ac.in/">DCRUST, Murthal</a> during <b>Technova.</b>
-  Technova is the name of Technical Festival of <a href="http://dcrustm.ac.in/">DCRUST</a>. In this Event, the participants are devided into
+  Technova is the Technical Festival of <a href="http://dcrustm.ac.in/">DCRUST</a>. In this Event, the participants are devided into
   groups of two. A printed schematic circuit diagram is provided to each group and their task is to redesign
   the circuit on BreadBoard using given electronic components.</p><br>
   <p>This main aim of this contest it to make the participants familiear to basic electronic components and to encourage them to enhance their creativity.
