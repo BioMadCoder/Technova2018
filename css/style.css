@@ -3,8 +3,8 @@ margin:0px;
 padding:0px;
 }
 body{
-/* background:url("../img/back7.jpg"); */
-background: url('../img/tech_back.jpg');
+background:url("../img/back7.jpg") fixed;
+/* background: url('../img/tech_back.jpg'); */
 }
 .well{
   margin-top: 130px;
@@ -57,14 +57,14 @@ background: url('../img/tech_back.jpg');
   color: skyblue;
   display: inline;
   font-weight:900;
-  padding: 10px;
+  padding: 10px 0px 10px 10px;
 }
 #org_name{
   font-size: 17px;
   color: white;
   display: inline;
   font-weight:900;
-  padding: 10px;
+  padding: 10px 10px 10px 5px;;
 }
 
 .lets_register li a{
@@ -88,7 +88,7 @@ background: url('../img/tech_back.jpg');
 }
 
 .intro table{
-  margin: 15px;
+  margin: 70px auto auto auto;
 }
 .intro table tr th:first-child,td:first-child{
   border-right: 2px solid #fff2;
@@ -156,7 +156,8 @@ background: url("../img/sweet_dark.jpg");
 
 @media screen and (max-width:600px){
   body{
-    background: url('../img/tech_back.jpg');
+  background:url("../img/back7.jpg") fixed;
+  /* background: url('../img/tech_back.jpg'); */
   }
   .well{
     margin: 20px 10px 10px 10px;
@@ -192,14 +193,12 @@ background: url("../img/sweet_dark.jpg");
     color: skyblue;
     display: inline;
     font-weight:900;
-    padding: 10px auto;
   }
   #org_name{
     font-size: 17px;
     color: white;
     display: inline;
     font-weight:900;
-    padding: 10px auto;
   }
 
   .intro table{
@@ -272,7 +271,8 @@ background: url("../img/sweet_dark.jpg");
 
 @media screen and (max-width:450px){
   body{
-    background: url('../img/tech_back.jpg');
+  background:url("../img/back7.jpg")  fixed;
+  /* background: url('../img/tech_back.jpg'); */
   }
   .well{
     margin: 20px 10px 10px 10px;
@@ -308,14 +308,12 @@ background: url("../img/sweet_dark.jpg");
     color: skyblue;
     display: inline;
     font-weight:900;
-    padding: 10px auto;
   }
   #org_name{
     font-size: 17px;
     color: white;
     display: inline;
     font-weight:900;
-    padding: 10px auto;
   }
 
   .intro table{
@@ -387,7 +385,8 @@ background: url("../img/sweet_dark.jpg");
 
 @media screen and (max-width:350px){
   body{
-    background: url('../img/tech_back.jpg');
+  background:url("../img/back7.jpg") fixed;
+  /* background: url('../img/tech_back.jpg'); */
   }
   .well{
     margin: 20px 10px 10px 10px;
@@ -423,14 +422,12 @@ background: url("../img/sweet_dark.jpg");
     color: skyblue;
     display: inline;
     font-weight:900;
-    padding: 10px auto;
   }
   #org_name{
     font-size: 17px;
     color: white;
     display: inline;
     font-weight:900;
-    padding: 10px auto;
   }
 
   .intro table{
@@ -502,6 +499,10 @@ background: url("../img/sweet_dark.jpg");
 }
 
 @media screen and (max-width:450px){
+  body{
+  background:url("../img/back7.jpg") fixed;
+  /* background: url('../img/tech_back.jpg'); */
+  }
   .well{
     margin: 20px 10px 10px 10px;
     background: #fff;
@@ -536,14 +537,12 @@ background: url("../img/sweet_dark.jpg");
     color: skyblue;
     display: inline;
     font-weight:900;
-    padding: 10px auto;
   }
   #org_name{
     font-size: 17px;
     color: white;
     display: inline;
     font-weight:900;
-    padding: 10px auto;
   }
 
   .intro table{
