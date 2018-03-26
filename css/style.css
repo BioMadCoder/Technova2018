@@ -1,503 +1,677 @@
 *{
-margin:0px;
-padding:0px;
+  padding: 0px;
+  margin: 0px;
 }
 body{
-background:url("../img/back7.jpg") fixed;
-/* background: url('../img/tech_back.jpg'); */
+  position: relative;
+  /* background: #FFE6C2; */
+  background: #FCF8ED;
 }
-.well{
-  margin-top: 50px;
-  margin: 30px 60px 10px 60px;
-  border: none;
-  padding: 0px;
+.row{
+  padding:0px;
+  margin: 0px;
 }
-.intro{
-  margin-top: 30px;
-  /* background: url("../img/tech_back.jpg"); */
-  background: url("../img/star_night.jpg");
-  padding-top: 50px;
-  padding-bottom: 20px;
+.navigation ul{
+  background: #333333;
+  height: 48px;
+  margin:0px;
 }
-.heading{
-  width: 100%;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 900;
-  color: white;
-  padding: 10px;
-  /* background: #BA2B25; */
-  background: #3949AB;
+.logo .fa{
+  font-size: 22px;
+  margin:auto 18px;
 }
-
-.profile-pic{
-  /* margin-top:-100px; */
-  height:100px;
-  width:100px;
-  margin: 15px;
+.navigation li:first-child{
+  list-style-type: none;
+  float: left;
+  margin-left: 30px;
 }
-.img-rounded{
-  /* border:4px solid #2B2E3C; */
-   border:4px solid #fff8;
-  /* box-shadow: 3px 3px 4px 4px #2B2E3C88; */
-  box-shadow: 0px 0px 16px 16px #fff8;
+.navigation li:nth-child(2){
+  list-style-type: none;
+  margin-right: 30px;
 }
-.img-rounded:hover{
-  box-shadow: 0px 0px 16px 16px #fff8;
+.navigation li{
+  list-style-type: none;
+  float: right;
+  overflow: hidden;
 }
-
-#name{
-  font-size: 30px;
-  color: white;
-  /* padding:20px; */
-  /* margin:20px; */
-  font-weight:900;
-}
-#org_by{
-  font-size: 15px;
-  color: skyblue;
-  display: inline;
-  font-weight:900;
-  padding: 10px 0px 10px 10px;
-}
-#org_name{
-  font-size: 17px;
-  color: white;
-  display: inline;
-  font-weight:900;
-  padding: 10px 10px 10px 5px;;
-}
-
-.lets_register li a{
-  padding:14px;
+.navigation li a{
   text-decoration: none;
+  color:white;
   display: inline-block;
-  background: #FF9800;
+  background: #333333;
+}
+.navigation li:not(:first-child) a{
+  border-left: 1px solid #fff5;
+    padding: 14px 16px;
+}
+.navigation li:not(:first-child) a:hover{
+  color:#333333;
+  background:white;
+}
+.logo a{
+  font-family: 'Bodoni';
+  font-weight: 900;
+  font-size: 14px;
+  padding:8px;
+}
+
+
+/* intro */
+
+.intro{
+  margin:0px;
+  padding:0px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/intro_bg3.jpeg');
+  position: relative;
+  min-height: 400px;
+}
+.cover{
+  background: #0005;
+  top:0px;
+  min-height: 400px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.intro, .col-md-12{
+  box-sizing: border-box;
+}
+.intro-text-content{
+  color:white;
+  padding: 20px;
+}
+.intro-text-content .branch-name{
+  font-size: 60px;
+  text-align: center;
+  padding:16px 16px 0px;
+  color:#BA2B25;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff8;
+  margin:16px 16px 0px;
+  font-weight: 900;
+  font-family: 'Bobber';
+}
+.intro-text-content .tag-line{
+  font-size: 25px;
+  padding:0px 16px 16px;
+  margin:0px 16px 16px;
+  text-align: center;
   color:white;
   font-weight: 900;
-  border: 1px #FF9800 solid;
-  border-radius: 10px;
-  font-size: 15px;
-  margin:16px 10px;
 }
-.lets_register li{
+.gallery{
+  min-height: 500px;
+}
+.gallery_heading{
+  width: 100%;
+  color:#BA2B25;
+  text-align: center;
+  font-size: 55px;
+  /* font-family: 'Lobster'; */
+  font-family: 'Chelsea Market', cursive;
+  padding:18px;
+}
+.gallery_content{
+  min-height: 500px;
+  border:2px solid black;
+  box-sizing: border-box;
+}
+
+.presenting{
+  width: 100%;
+  color:#BA2B25;
+  text-align: center;
+  font-size: 55px;
+  /* font-family: 'Lobster'; */
+  font-family: 'Chelsea Market', cursive;
+  padding:18px;
+}
+.events-row{
+  box-sizing: border-box;
+}
+.events{
+  margin-top: 15px;
+}
+.event{
+  padding:14px;
+}
+.event-content{
+  text-align: center;
+  border: 3px solid #0008;
+  border-radius: 10px;
+  padding:12px;
+  background:#fff8;
+  box-shadow: 0px 0px 2px 2px #0002;
+}
+.event-content:hover{
+  box-shadow: 0px 0px 8px 8px #0005;
+  cursor: pointer;
+}
+.event_image img{
+  height: 200px;
+  width: 200px;
+}
+.event_heading{
+  font-weight: 900;
+  font-size: 25px;
+  margin-top: 14px;
+}
+.event_desc ul{
   list-style-type: none;
 }
-.lets_register li a:hover{
-  background: white;
-  color:#FF9800;
-  font-weight: 900;
-  border: 1px white solid;
-  box-shadow: 0px 0px 9px 9px #fff8;
+.event_desc li:last-child{
+  padding:8px;
+  margin:8px;
 }
-
-.intro table{
-  margin: 0px auto auto auto;
+.event_desc button{
+  padding:8px;
+  margin:8px;
 }
-.intro table tr th:first-child,td:first-child{
-  border-right: 2px solid #fff2;
+.event_desc .registerd{
+  display: inline-block;
 }
-.intro table tr th{
-  /* border-bottom: 2px solid skyblue; */
-}
-#visitor_count, #register_count{
+.num_registeration{
   font-weight: 800;
-}
-.intro th,td{
-  padding:10px;
-  margin: 10px;
-  color:white;
   font-size: 15px;
+  color: red;
+}
+.about_us{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/intro_bg2.jpeg');
+  min-height: 200px;
+  margin-top: 80px;
+}
+.about_heading{
+  width: 100%;
+  color:white;
   text-align: center;
+  font-size: 55px;
+  font-family: 'Lobster';
+  padding:18px;
 }
-.about{
+.about_content{
+  text-align: center;
+  width: 100%;
+  color:white;
+  font-size: 25px;
 }
-.about .about_content{
-  border:none;
-  font-size: 20px;
-    padding:30px;
-    font-family: Futura;
+.contact_us{
+  min-height: 200px;
+  margin-top: 80px;
 }
-
-.rules{
-  margin-top: 130px;
+.contact_heading{
+  width: 100%;
+  color:#FF9800;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Lobster';
+  padding:18px;
 }
-.rules_content{
-  border:none;
-  font-size: 20px;
-    padding:50px;
-    font-family: Futura;
+.contact_tile{
+  text-align: center;
+  padding:16px;
 }
-
-.register{
-margin-top: 130px;
+.contact_image img{
+  width:200px;
+  height:200px;
 }
-.register_content{
-  border:none;
-  font-size: 20px;
-  padding:50px;
-  font-family: Futura;
+.contact_name{
+margin: 8px;
 }
-.register a{
-  font-size: 30px;
+.contact_no{
+  margin: 8px;
 }
-.contact{
-margin-top: 130px;
-padding-bottom: 70px;
-background: url("../img/sweet_dark.jpg");
-}
-.contact table {
-  border:none;
-  font-size: 20px;
-  padding:50px;
-  margin: 10px;
-  font-family: Futura;
-}
-.contact th,td{
-  padding: 5px;
-  color: white;
+.contact_mail{
+  margin: 8px;
 }
 
-@media screen and (max-width:600px){
-  body{
-  background:url("../img/back7.jpg") fixed;
-  /* background: url('../img/tech_back.jpg'); */
-  }
-  .well{
-    margin: 20px 10px 10px 10px;
-    background: #fff;
-  }
-  .intro{
-    margin-top: 20px;
-    /* background: url("../img/tech_back.jpg"); */
-    background: url("../img/star_night.jpg");
-    padding-top: 70px;
-    padding-bottom: 20px;
-  }
-  .heading{
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 900;
-    color: white;
-    padding: 10px;
-    /* background: #BA2B25; */
-    background: #3949AB;
-  }
 
-  #name{
-    font-size: 20px;
-    color: white;
-    padding:10px;
-    margin:10px;
-    font-weight:900;
-  }
-  #org_by{
-    font-size: 15px;
-    color: skyblue;
-    display: inline;
-    font-weight:900;
-  }
-  #org_name{
-    font-size: 17px;
-    color: white;
-    display: inline;
-    font-weight:900;
-  }
-
-  .intro table{
-    margin: 10px;
-  }
-  .intro table tr th:first-child,td:first-child{
-    border-right: 2px solid #fff8;
-  }
-  .intro table tr th{
-    /* border-bottom: 2px solid skyblue; */
-  }
-  #visitor_count, #register_count{
-    font-weight: 800;
-  }
-  .intro th,td{
-    padding:10px;
-    margin: 10px;
-    color:white;
-    font-size: 15px;
-    text-align: center;
-  }
-  .about{
-  }
-  .about .about_content{
-    border:none;
-    font-size: 18px;
-      padding:25px;
-      font-family: Futura;
-  }
-
-  .rules{
-    margin-top: 70px;
-  }
-  .rules_content{
-    border:none;
-    font-size: 20px;
-      padding:50px;
-      font-family: Futura;
-  }
-
-  .register{
-  margin-top: 70px;
-  }
-  .register_content{
-    border:none;
-    font-size: 20px;
-    padding:50px;
-    font-family: Futura;
-  }
-  .register a{
-    font-size: 30px;
-  }
-  .contact{
-  margin-top: 70px;
-  padding-bottom: 70px;
-  }
-  .contact table {
-    border:none;
-    font-size: 20px;
-    padding:50px;
-    font-family: Futura;
-  }
-  .contact.th,td{
-    padding: 5px;
-    color: skyblue;
-  }
-
-
-}
-
-@media screen and (max-width:450px){
-  body{
-  background:url("../img/back7.jpg")  fixed;
-  /* background: url('../img/tech_back.jpg'); */
-  }
-  .well{
-    margin: 20px 10px 10px 10px;
-    background: #fff;
-  }
-  .intro{
-    margin-top: 20px;
-    /* background: url("../img/tech_back.jpg"); */
-    background: url("../img/star_night.jpg");
-    padding-top: 70px;
-    padding-bottom: 20px;
-  }
-  .heading{
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 900;000
-    color: white;
-    padding: 10px;
-    /* background: #BA2B25; */
-    background: #3949AB;
-  }
-
-  #name{
-    font-size: 20px;
-    color: white;
-    padding:10px;
-    margin:10px;
-    font-weight:900;
-  }
-  #org_by{
-    font-size: 15px;
-    color: skyblue;
-    display: inline;
-    font-weight:900;
-  }
-  #org_name{
-    font-size: 17px;
-    color: white;
-    display: inline;
-    font-weight:900;
-  }
-
-  .intro table{
-    margin: 10px;
-  }
-  .intro table tr th:first-child,td:first-child{
-    border-right: 2px solid #fff8;
-  }
-  .intro table tr th{
-    /* border-bottom: 2px solid skyblue; */
-  }
-  #visitor_count, #register_count{
-    font-weight: 800;
-  }
-  .intro th,td{
-    padding:10px;
-    margin: 10px;
-    color:white;
-    font-size: 15px;
-    text-align: center;
-  }
-  .about{
-  }
-  .about .about_content{
-    border:none;
-    font-size: 15px;
-      padding:15px;
-      font-family: Futura;
-  }
-
-  .rules{
-    margin-top: 50px;
-  }
-  .rules_content{
-    border:none;
-    font-size: 15px;
-      padding:40px;
-      font-family: Futura;
-  }
-
-  .register{
-  margin-top: 50px;
-  }
-  .register_content{
-    border:none;
-    font-size: 15px;
-    padding:15px;
-    font-family: Futura;
-  }
-  .register a{
-    font-size: 30px;
-  }
-  .contact{
-  margin-top: 50px;
+.small_cover{
+  background: #0005;
+  top:0px;
+  min-height: 100px;
+  width: 100%;
   padding-bottom: 50px;
+}
+.copyright_statement{
+  min-height: 80px;
+}
+
+
+/* less then 600px */
+
+@media (max-width: 600px){
+
+  .intro{
+    margin:0px;
+    padding:0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/intro_bg3.jpeg');
+    position: relative;
+    min-height: 200px;
   }
-  .contact table {
-    border:none;
+  .cover{
+    background: #0005;
+    top:0px;
+    min-height: 300px;
+    width: 100%;
+    padding-bottom: 25px;
+  }
+  .intro, .col-md-12{
+    box-sizing: border-box;
+  }
+  .intro-text-content{
+    color:white;
+    padding: 12px;
+  }
+  .intro-text-content .branch-name{
+    font-size: 35px;
+    text-align: center;
+    padding:12px 12px 0px;
+    color:#BA2B25;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff8;
+    margin:12px 12px 0px;
+    font-weight: 900;
+    font-family: 'Bobber';
+  }
+  .intro-text-content .tag-line{
+    font-size: 18px;
+    padding:0px 12px 12px;
+    margin:0px 12px 12px;
+    text-align: center;
+    color:white;
+    font-weight: 900;
+  }
+  .presenting{
+    width: 100%;
+    color:#BA2B25;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lobster';
+    padding:12px;
+  }
+  .events-row{
+    box-sizing: border-box;
+  }
+  .events{
+    margin-top: 12px;
+  }
+  .event{
+    padding:10px;
+  }
+  .event-content{
+    text-align: center;
+    border: 2px solid #0008;
+    border-radius: 10px;
+    padding:8px;
+    background:#fff8;
+    box-shadow: 0px 0px 2px 2px #0002;
+  }
+  .event-content:hover{
+    box-shadow: 0px 0px 8px 8px #0005;
+    cursor: pointer;
+  }
+  .event_image img{
+    height: 150px;
+    width: 150px;
+  }
+  .event_heading{
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 14px;
+  }
+  .event_desc ul{
+    list-style-type: none;
+  }
+  .event_desc li:last-child{
+    padding:8px;
+    margin:8px;
+  }
+  .event_desc button{
+    padding:8px;
+    margin:8px;
+  }
+  .event_desc .registerd{
+    display: inline-block;
+  }
+  .num_registeration{
+    font-weight: 800;
     font-size: 12px;
-    padding:30px;
-    font-family: Futura;
+    color: red;
   }
-  .contact.th,td{
-    padding: 10px;
-    color: white;
+  .about_heading{
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lobster';
+    padding:14px;
+  }
+  .about_us{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/intro_bg2.jpeg');
+    min-height: 100px;
+    margin-top: 40px;
+  }
+  .contact_us{
+    min-height: 100px;
+    margin-top: 40px;
+  }  .intro{
+    margin:0px;
+    padding:0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/intro_bg3.jpeg');
+    position: relative;
+    min-height: 200px;
+  }
+  .cover{
+    background: #0005;
+    top:0px;
+    min-height: 300px;
+    width: 100%;
+    padding-bottom: 25px;
+  }
+  .intro, .col-md-12{
+    box-sizing: border-box;
+  }
+  .intro-text-content{
+    color:white;
+    padding: 12px;
+  }
+  .intro-text-content .branch-name{
+    font-size: 35px;
+    text-align: center;
+    padding:12px 12px 0px;
+    color:#BA2B25;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff8;
+    margin:12px 12px 0px;
+    font-weight: 900;
+    font-family: 'Bobber';
+  }
+  .intro-text-content .tag-line{
+    font-size: 18px;
+    padding:0px 12px 12px;
+    margin:0px 12px 12px;
+    text-align: center;
+    color:white;
+    font-weight: 900;
+  }
+  .presenting{
+    width: 100%;
+    color:#BA2B25;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lobster';
+    padding:12px;
+  }
+  .events-row{
+    box-sizing: border-box;
+  }
+  .events{
+    margin-top: 12px;
+  }
+  .event{
+    padding:10px;
+  }
+  .event-content{
+    text-align: center;
+    border: 2px solid #0008;
+    border-radius: 10px;
+    padding:8px;
+    background:#fff8;
+    box-shadow: 0px 0px 2px 2px #0002;
+  }
+  .event-content:hover{
+    box-shadow: 0px 0px 8px 8px #0005;
+    cursor: pointer;
+  }
+  .event_image img{
+    height: 150px;
+    width: 150px;
+  }
+  .event_heading{
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 14px;
+  }
+  .event_desc ul{
+    list-style-type: none;
+  }
+  .event_desc li:last-child{
+    padding:8px;
+    margin:8px;
+  }
+  .event_desc button{
+    padding:8px;
+    margin:8px;
+  }
+  .event_desc .registerd{
+    display: inline-block;
+  }
+  .num_registeration{
+    font-weight: 800;
+    font-size: 12px;
+    color: red;
+  }
+  .about_heading{
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lobster';
+    padding:14px;
+  }
+  .about_us{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/intro_bg2.jpeg');
+    min-height: 100px;
+    margin-top: 40px;
+  }
+  .contact_us{
+    min-height: 100px;
+    margin-top: 40px;
+  }
+  .contact_heading{
+    width: 100%;
+    color:#FF9800;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lobster';
+    padding:14px;
+  }
+  .small_cover{
+    background: #0005;
+    top:0px;
+    min-height: 70px;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .copyright_statement{
+    min-height: 60px;
+  }
+  .contact_heading{
+    width: 100%;
+    color:#FF9800;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lobster';
+    padding:14px;
+  }
+  .small_cover{
+    background: #0005;
+    top:0px;
+    min-height: 70px;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .copyright_statement{
+    min-height: 60px;
   }
 
 }
 
-@media screen and (max-width:350px){
-  body{
-  background:url("../img/back7.jpg") fixed;
-  /* background: url('../img/tech_back.jpg'); */
-  }
-  .well{
-    margin: 20px 10px 10px 10px;
-    background: #fff;
-  }
+/* less then 300px */
+@media (max-width: 400px){
+
   .intro{
-    margin-top: 20px;
-    /* background: url("../img/tech_back.jpg"); */
-    background: url("../img/sweet_dark.jpg");
-    padding-top: 70px;
-    padding-bottom: 20px;
+    margin:0px;
+    padding:0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/intro_bg3.jpeg');
+    position: relative;
+    min-height: 300px;
   }
-  .heading{
+  .cover{
+    background: #0005;
+    top:0px;
+    min-height: 300px;
     width: 100%;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 900;
-    color: white;
-    padding: 10px;
-    /* background: #BA2B25; */
-    background: #3949AB;
+    padding-bottom: 25px;
   }
-
-  #name{
-    font-size: 20px;
-    color: white;
-    padding:10px;
-    margin:10px;
-    font-weight:900;
+  .intro, .col-md-12{
+    box-sizing: border-box;
   }
-  #org_by{
-    font-size: 15px;
-    color: skyblue;
-    display: inline;
-    font-weight:900;
-  }
-  #org_name{
-    font-size: 17px;
-    color: white;
-    display: inline;
-    font-weight:900;
-  }
-
-  .intro table{
-    margin: 10px;
-  }
-  .intro table tr th:first-child,td:first-child{
-    border-right: 2px solid #fff;
-  }
-  .intro table tr th{
-    /* border-bottom: 2px solid skyblue; */
-  }
-  #visitor_count, #register_count{
-    font-weight: 800;
-  }
-  .intro th,td{
-    padding:10px;
-    margin: 10px;
+  .intro-text-content{
     color:white;
-    font-size: 15px;
+    padding: 12px;
+  }
+  .intro-text-content .branch-name{
+    font-size: 25px;
     text-align: center;
+    padding:8px 8px 0px;
+    color:#BA2B25;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff8;
+    margin:8px 8px 0px;
+    font-weight: 900;
+    font-family: 'Bobber';
   }
-  .about{
+  .intro-text-content .tag-line{
+    font-size: 14px;
+    padding:0px 8px 8px;
+    margin:0px 8px 8px;
+    text-align: center;
+    color:white;
+    font-weight: 900;
   }
-  .about .about_content{
-    border:none;
-    font-size: 15px;
-      padding:10px;
-      font-family: Futura;
+  .presenting{
+    width: 100%;
+    color:#BA2B25;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lobster';
+    padding:8px;
   }
-
-  .rules{
-    margin-top: 30px;
+  .events-row{
+    box-sizing: border-box;
   }
-  .rules_content{
-    border:none;
-    font-size: 15px;
-      padding:35px;
-      font-family: Futura;
+  .events{
+    margin-top: 8px;
   }
-
-  .register{
-  margin-top: 30px;
+  .event{
+    padding:8px;
   }
-  .register a{
-    font-size: 30px;
+  .event-content{
+    text-align: center;
+    border: 1px solid #0008;
+    border-radius: 10px;
+    padding:8px;
+    background:#fff8;
+    box-shadow: 0px 0px 2px 2px #0002;
   }
-  .register_content{
-    border:none;
-    font-size: 15px;
+  .event-content:hover{
+    box-shadow: 0px 0px 8px 8px #0005;
+    cursor: pointer;
+  }
+  .event_image img{
+    height: 100px;
+    width: 100px;
+  }
+  .event_heading{
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: 12px;
+  }
+  .event_desc ul{
+    list-style-type: none;
+  }
+  .event_desc li:last-child{
+    padding:8px;
+    margin:8px;
+  }
+  .event_desc button{
+    padding:8px;
+    margin:8px;
+  }
+  .event_desc .registerd{
+    display: inline-block;
+  }
+  .num_registeration{
+    font-weight: 800;
+    font-size: 12px;
+    color: red;
+  }
+  .about_heading{
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lobster';
     padding:10px;
-    font-family: Futura;
   }
-  .contact{
-  margin-top: 30px;
-  padding-bottom: 30px;
-  background: url("../img/sweet_dark.jpg");
+  .about_us{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/intro_bg2.jpeg');
+    min-height: 100px;
+    margin-top: 40px;
   }
-  .contact table {
-    border:none;
-    font-size: 12px;
-    padding:15px;
-    font-family: Futura;
+  .contact_us{
+    min-height: 100px;
+    margin-top: 40px;
   }
-  .contact.th,td{
-    padding: 5px;
-    font-size: 12px;
-    color: white;
+  .contact_heading{
+    width: 100%;
+    color:#FF9800;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lobster';
+    padding:10px;
   }
+  .small_cover{
+    background: #0005;
+    top:0px;
+    min-height: 60px;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .copyright_statement{
+    min-height: 60px;
+  }
+
 }
