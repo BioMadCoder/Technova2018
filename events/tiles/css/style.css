@@ -24,8 +24,6 @@ body {
 	display: grid;
 	grid-template: repeat(1, var(--cardH)) / var(--cardW);
 	grid-gap: 1.5em;
-	/* outline: 1px solid red; */
-	/*padding-bottom: calc(var(--cardH) * 3);*/
 	position: absolute;
 	top: 50%;
 	left: 55%;
@@ -42,45 +40,12 @@ body {
 	line-height: 1.25;
 	-webkit-font-smoothing: antialiased;
 }
-.stack:nth-of-type(even) .contents {
-	color: #fff;
-}
 .contents h2 {
-	color: #aff;
+	color: #f00;
 	font-size: 2em;
 	font-weight: 400;
 	margin-bottom: 0.25em;
 }
-.contents span {
-	/*margin-right: 0.75em;*/
-}
-.city {
-	/*margin-top: 11.75em;*/
-}
-/* Card backgrounds */
-.stack .card {
-	/*background-position: 0 100%;*/
-}
-/*.stack:nth-of-type(4n + 3) .card {
-	background-position: 100% 0;
-}
-.stack:nth-of-type(4n + 4) .card {
-	background-position: 100% 100%;
-}
-.stack:nth-child(8n + 5) .card,
-.stack:nth-child(8n + 6) .card,
-.stack:nth-child(8n + 7) .card,
-.stack:nth-child(8n + 8) .card {
-	filter: hue-rotate(90deg);
-	-webkit-filter: hue-rotate(90deg);
-}
-.stack:nth-child(12n + 9) .card,
-.stack:nth-child(12n + 10) .card,
-.stack:nth-child(12n + 11) .card,
-.stack:nth-child(12n + 12) .card {
-	filter: hue-rotate(180deg);
-	-webkit-filter: hue-rotate(180deg);
-}*/
 /* Card hover */
 .stack:hover .top, .stack:focus .top {
 	transform: translateZ(calc(var(--cardZInc)*5));
