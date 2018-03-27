@@ -62,6 +62,7 @@
     top:30%;
     left:0%;
     width: 100%;
+    visibility: visible;
   }
   .cont{
     color:white;
@@ -77,13 +78,117 @@
   .cont a:hover{
     color:white;
   }
+  .mob-tiles{
+    visibility: hidden;
+  }
 
-	@media screen and (max-width: 600px) {
-	min-height:400px;
+	@media screen and (max-width: 800px) {
+    #event_tiles{
+      visibility: hidden;
+    }
+    .cont{
+      color:white;
+      font-size:10px;
+    }
+    .cont th,td,tr,table{
+      margin:0px;
+      padding:2px;
+    }
+    .mob-tiles{
+      visibility: visible;
+    }
+    .events-row{
+    box-sizing: border-box;
+  }
+  .events{
+    margin-top: 12px;
+  }
+  .event{
+    padding:10px;
+    color:black;
+  }
+  .event-content{
+    text-align: center;
+    border: 2px solid #0008;
+    border-radius: 10px;
+    padding:8px;
+    background:#fff8;
+    box-shadow: 0px 0px 2px 2px #0002;
+  }
+  .event-content:hover{
+    box-shadow: 0px 0px 8px 8px #0005;
+    cursor: pointer;
+  }
+  .event_image img{
+    height: 150px;
+    width: 150px;
+  }
+  .event_heading{
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 14px;
+  }
+  .event_desc ul{
+    list-style-type: none;
+  }
+  .event_desc button{
+    padding:8px;
+    margin:8px;
+    font-size: 14px;
+  }
 	}
 
-	@media screen and (max-width: 600px) {
-	min-height:300px;
+	@media screen and (max-width: 300px) {
+    #event_tiles{
+      visibility: hidden;
+    }
+    .cont{
+      color:white;
+      font-size:10px;
+    }
+
+    .mob-tiles{
+      visibility: visible;
+    }
+    .events-row{
+    box-sizing: border-box;
+  }
+  .events{
+    margin-top: 8px;
+  }
+  .event{
+    padding:8px;
+  }
+  .event-content{
+    text-align: center;
+    border: 1px solid #0008;
+    border-radius: 10px;
+    padding:8px;
+    background:#fff8;
+    box-shadow: 0px 0px 2px 2px #0002;
+  }
+  .event-content:hover{
+    box-shadow: 0px 0px 8px 8px #0005;
+    cursor: pointer;
+  }
+  .event_image img{
+    height: 100px;
+    width: 100px;
+  }
+  .event_heading{
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: 12px;
+    color:black;
+  }
+  .event_desc ul{
+    list-style-type: none;
+  }
+  .event_desc button{
+    padding:8px;
+    margin:8px;
+    font-size: 14px;
+  }
 	}
 
 </style>
@@ -208,7 +313,74 @@
 
 <iframe id="event_tiles" src="events/tiles/index.html"></iframe>
 
+<div class="mob-tiles">
 
+<div class="events">
+
+<div class="events-row row">
+  <div class="col-md-4 event">
+    <div class="event-content circuit_war">
+
+<div class="event_image">
+  <img class="image-responsive img-circle" src="img/back7.jpg">
+</div>
+<div class="event_heading">
+  Cicuit War
+</div>
+<div class="event_desc">
+  <ul>
+    <li>
+      <button class="btn-primary animated pulse infinite">Register</button>
+    </li>
+  </ul>
+</div>
+
+    </div>
+  </div>
+  <div class="col-md-4 event bio_quiz">
+    <div class="event-content">
+
+      <div class="event_image">
+          <img class="image-responsive img-circle" src="img/quiz.png">
+      </div>
+      <div class="event_heading">
+        Bio-Quiz
+      </div>
+      <div class="event_desc">
+        <ul>
+          <li>
+            <button class="btn-primary animated pulse infinite">Register</button>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <div class="col-md-4 event dream_project">
+    <div class="event-content">
+
+      <div class="event_image">
+        <img class="image-responsive img-circle" src="img/dream_project.jpg">
+      </div>
+      <div class="event_heading">
+        Dream Project
+      </div>
+      <div class="event_desc">
+        <ul>
+          <li>
+            <button class="btn-primary  animated pulse infinite">Register</button>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+</div>
 <!--=====================================================================================================================================-->
 
    </section> <!-- end services -->
